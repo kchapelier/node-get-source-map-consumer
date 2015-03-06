@@ -1,0 +1,30 @@
+{
+  "name": "get-source-map-consumer",
+  "version": "0.1.0",
+  "description": "Get an instance of SourceMapConsumer, when a sourcemap is available, for a given script.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kchapelier/node-get-source-map-consumer.git"
+  },
+  "keywords": [
+    "sourcemap",
+    "source",
+    "map",
+    "consumer"
+  ],
+  "author": "Kevin Chapelier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kchapelier/node-get-source-map-consumer/issues"
+  },
+  "homepage": "https://github.com/kchapelier/node-get-source-map-consumer",
+  "dependencies": {
+    "is-url": "^1.2.0",
+    "source-map": "^0.4.0",
+    "source-map-resolve": "^0.3.0"
+  }
+}
